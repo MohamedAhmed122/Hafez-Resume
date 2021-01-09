@@ -5,8 +5,10 @@ const arcWhiteBlue = "#2196F3";
 
 export default  makeStyles((theme) => ({
    grid:{
-       borderRight: '1px solid  #2196F3',
        height: 600,
+       position:'fixed',
+       borderRight: '1px solid  #2196F3',
+       width :380,
        
         [theme.breakpoints.down("xs")]: {
             borderBottom: '1px solid  #2196F3',
@@ -14,11 +16,12 @@ export default  makeStyles((theme) => ({
             marginLeft: '4rem',
             borderRight: '0 solid  #2196F3',
             height: 500,
+            position:'relative'
         },
    } ,
    Avatar:{
-    height: 100,
-    width: 100,
+    height: 110,
+    width: 110,
     textAlign: 'center',
     marginLeft: '5rem'
    },

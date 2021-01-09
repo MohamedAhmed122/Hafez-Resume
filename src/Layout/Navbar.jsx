@@ -12,7 +12,7 @@ const Navbar = () => {
       <AppBar className={classes.appBar}>
         <Toolbar>
           <Tabs>
-            <Tab className={classes.MainTab} label="Logistic Expert" />
+            <Tab className={classes.MainTab} label="2nd Officer" />
           </Tabs>
           <Tabs className={classes.iconTabs}>
             <Tab

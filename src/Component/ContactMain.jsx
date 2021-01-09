@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 import FacebookIcon from "@material-ui/icons/Facebook";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import MailIcon from "@material-ui/icons/Mail";
 
 
 const ContactMain = () => {
@@ -23,10 +23,10 @@ const ContactMain = () => {
                 Let's get personal
                 </Typography>
                 <Typography variant="subtitle1" className={classes.sub}>
-                <span className={classes.span}> Phone number:</span> +201003021307
+                <span className={classes.span}> Phone number:</span> +2010605086803
                 </Typography>
                 <Typography variant="subtitle1" className={classes.sub}>
-                <span className={classes.span}> E-mail:</span> hafezahmed0095@gmail.com
+                <span className={classes.span}> E-mail:</span> mstxebec93@gmail.com
                 </Typography>
                 <Typography variant="h4" className={classes.main}>
                 contact me through social media
@@ -43,7 +43,7 @@ const ContactMain = () => {
             <Grid
                 item
                 component={"a"}
-                href='https://www.facebook.com/hafez.ahmed.167'
+                href='https://www.facebook.com/navigator99/'
                 rel="noopener noreferrer"
                 target="_blank"
                 fontSize="large"
@@ -54,7 +54,7 @@ const ContactMain = () => {
             <Grid
                 item
                 component={"a"}
-                href="https://api.whatsapp.com/send?phone=+201003021307"
+                href="https://api.whatsapp.com/send?phone=+2010605086803"
                 rel="noopener noreferrer"
                 target="_blank"
                 fontSize="large"
@@ -64,17 +64,15 @@ const ContactMain = () => {
                 <WhatsAppIcon fontSize="large" className={classes.icon} />
             </Grid>
             <Grid
-                item
                 component={"a"}
-                href='https://www.instagram.com/abdelhafez_008/'
+                href="mailto:mstxebec93@gmail.com"
                 rel="noopener noreferrer"
                 target="_blank"
                 fontSize="large"
                 className={classes.social}
-            >
-                <InstagramIcon fontSize="large" className={classes.icon} />
+                item
+                > <MailIcon className={classes.icon} /></Grid>
             </Grid>
-        </Grid>
         <Grid container>
             <Grid item>
                 <div className={classes.links}>

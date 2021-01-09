@@ -17,8 +17,8 @@ const Main = () => {
             High school
             </Typography>
             <Typography variant="subtitle1" className={classes.sub}  style={{fontSize: '1.2rem' , color:'black'}}>
-            High school in Abo Youssef Private School{" "}
-            <span className={classes.span}>2008-2011</span>
+            High school in Abou Youssef Private School{" "}
+            <span className={classes.span}>2007-2010</span>
             </Typography>
             <br />
             
@@ -28,32 +28,85 @@ const Main = () => {
             <br />
             <br />
             <Typography variant="subtitle2" style={{fontSize: '1.2rem' , color:'black'}} className={classes.sub}>
-            Arab academy for science technology & maritime transport,International
-            transport & logistics college. Transport Operation Management section.{" "}
-            <span className={classes.span}>2012 – 2016</span>
+            Arab Academy for Science Technology & Maritime Transport.
+            {/* <span className={classes.span}>2011 – 2016</span> */}
             </Typography>
             <br />
             <Typography variant="subtitle1" className={classes.sub}>
-            Bachelor’s Degree in administration trade logistics and international
-            transportation science technology & maritime transport.
+              -AWARDING BACHELOR DEGREE WITH (V.GOOD) & IN MARiTIME TRANSPORT  <span className={classes.span}>2011 – 2016</span>
             </Typography>
             <br />
             <Typography variant="subtitle1" className={classes.sub}>
-            GPA: 2.7 Good .
+            GPA: 2.79 Good 
             </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+              -C.O.C 2nd Officer
+            </Typography>    
             <Typography variant="3" className={classes.edu}>
-            Work Experience
+            Maritime Certification
             </Typography>
 
             <Typography variant="subtitle1" className={classes.sub}>
-            I worked at on Time company
-            <span className={classes.span}>06/10/2018 – 12/07/2019</span>
+            Proficiency in Survival crafts and rescue boats other the fort rescue boats
             </Typography>
             <br />
             <Typography variant="subtitle1" className={classes.sub}>
-            I have been working At Alex stewart inspection company 
-            <span className={classes.span}> since 01/11/2019</span>
+            Ecids simulator (operation level)  
             </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Prevention and combating of marine pollution
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Advanced fire prevention and fire fighting  
+            </Typography>
+
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Medical First aid 
+            </Typography>
+
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Marine radar and automatic radar plotting aids 
+            </Typography>
+
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Personal safety and social responsibilities 
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Personal Survival techniques and search rescue
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Prevention and Combating of marine pollution
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Proficiency and Combating of marine pollution
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Prevention of security awareness training for sea fares with designated security duties 
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            Bridge Resource Management (BRM) 
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            GMDSS
+            </Typography>
+            <br />
+            <Typography variant="subtitle1" className={classes.sub}>
+            GOC
+            </Typography>
+         
+            
             <div className={classes.links}>
               <Link to="/about">
                 {" "}
