@@ -37,7 +37,7 @@ const Main = () => {
             </Typography>
             <br />
             <Typography variant="subtitle1" className={classes.sub}>
-            GPA: 2.79 Good 
+            GPA: 2.9 Very Good 
             </Typography>
             <br />
             <Typography variant="subtitle1" className={classes.sub}>

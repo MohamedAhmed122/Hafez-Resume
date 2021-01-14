@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { Grid, Typography, Container } from "@material-ui/core";
+import { Grid, Typography, Container, Hidden } from "@material-ui/core";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
@@ -34,6 +34,8 @@ const ContactMain = () => {
             </Container>
             </Grid>
             </Grid>
+            <Hidden smDown>
+
             <Grid
             container
             
@@ -71,8 +73,9 @@ const ContactMain = () => {
                 fontSize="large"
                 className={classes.social}
                 item
-                > <MailIcon className={classes.icon} /></Grid>
+                > <MailIcon fontSize="large" className={classes.icon} /></Grid>
             </Grid>
+            </Hidden>
         <Grid container>
             <Grid item>
                 <div className={classes.links}>

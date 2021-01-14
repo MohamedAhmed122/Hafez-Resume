@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Grid, Avatar, Typography } from "@material-ui/core";
+import { Grid, Avatar, Typography, Hidden } from "@material-ui/core";
 import UseStyles from "./Styles";
 import img from "../assets/Mostafa.png";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -56,54 +56,56 @@ const sideBar = () => {
             </Link>
           </Typography>
         </Grid>
-        <Grid container style={{marginTop: '1rem'}}>
-        <Grid
-          component={"a"}
-          href='https://www.facebook.com/navigator99/'
-          rel="noopener noreferrer"
-          target="_blank"
-          fontSize="large"
-          className={classes.social}
-          item
-          style={{marginLeft: 14}}
-        >
-         
-          <FacebookIcon className={classes.icon} />{" "}
-        </Grid>
-        <Grid
-          component={"a"}
-          href='https://www.instagram.com'
-          rel="noopener noreferrer"
-          target="_blank"
-          fontSize="large"
-          className={classes.social}
-          item
-        >
-           <InstagramIcon className={classes.icon} />{" "}
-        </Grid>
-       
-        <Grid
-          component={"a"}
-          href="https://api.whatsapp.com/send?phone=+2010605086803"
-          rel="noopener noreferrer"
-          target="_blank"
-          fontSize="large"
-          className={classes.social}
-          item
-        >
-           <WhatsAppIcon className={classes.icon} />
-        </Grid>
-        <Grid
-          component={"a"}
-          href="mailto:mstxebec93@gmail.com"
-          rel="noopener noreferrer"
-          target="_blank"
-          fontSize="large"
-          className={classes.social}
-          item
-        > <MailIcon className={classes.icon} /></Grid>
-        
-      </Grid>
+        <Hidden smDown>
+            <Grid container style={{marginTop: '1rem'}}>
+            <Grid
+              component={"a"}
+              href='https://www.facebook.com/navigator99/'
+              rel="noopener noreferrer"
+              target="_blank"
+              fontSize="large"
+              className={classes.social}
+              item
+              style={{marginLeft: 14}}
+            >
+            
+              <FacebookIcon className={classes.icon} />{" "}
+            </Grid>
+            <Grid
+              component={"a"}
+              href='https://www.instagram.com'
+              rel="noopener noreferrer"
+              target="_blank"
+              fontSize="large"
+              className={classes.social}
+              item
+            >
+              <InstagramIcon className={classes.icon} />{" "}
+            </Grid>
+          
+            <Grid
+              component={"a"}
+              href="https://api.whatsapp.com/send?phone=+2010605086803"
+              rel="noopener noreferrer"
+              target="_blank"
+              fontSize="large"
+              className={classes.social}
+              item
+            >
+              <WhatsAppIcon className={classes.icon} />
+            </Grid>
+            <Grid
+              component={"a"}
+              href="mailto:mstxebec93@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+              fontSize="large"
+              className={classes.social}
+              item
+            > <MailIcon className={classes.icon} /></Grid>
+            
+          </Grid>
+        </Hidden>
       </Grid>
     </Fragment>
   );

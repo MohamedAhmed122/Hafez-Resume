@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
-import { AppBar, Toolbar, makeStyles, Tabs, Tab } from "@material-ui/core";
+import { AppBar, Toolbar, makeStyles, Tabs, Tab, Hidden } from "@material-ui/core";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MailIcon from '@material-ui/icons/Mail';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const classes = useStyles();
@@ -12,23 +13,33 @@ const Navbar = () => {
       <AppBar className={classes.appBar}>
         <Toolbar>
           <Tabs>
-            <Tab className={classes.MainTab} label="2nd Officer" />
+          <Hidden smDown>
+
+            <Tab  
+            className={classes.MainTab} 
+            label="2nd Officer" 
+            component={Link}
+            to='/about'/>
+          </Hidden>
           </Tabs>
           <Tabs className={classes.iconTabs}>
             <Tab
               className={classes.iconTab}
-              icon={<InstagramIcon fontSize="large" />}
-              aria-label="phone"
+              label="About"
+              component={Link}
+              to='/about'
             />
             <Tab
               className={classes.iconTab}
-              icon={<FacebookIcon fontSize="large" />}
-              aria-label="favorite"
+              label="Contact"
+              component={Link}
+              to='/contact'
             />
             <Tab
               className={classes.iconTab}
-              icon={<MailIcon fontSize="large" />}
-              aria-label="person"
+              label="Certificate"
+              component={Link}
+              to='/certificate'
             />
           </Tabs>
         </Toolbar>
